@@ -3,34 +3,45 @@ nav ul li {
      display: block;
      display: inline-block;
      padding: 0.75em;
-     margin: 5px
-     float: left;
+     margin: 5px;
+     float: none;
      background-color: black;
      text-align: center;
-
+     display: inline-block;
+    list-style-type: none;
 }
+/* above, nav colors and onfiguration */
+
+nav ul {
+    display: inline-block;
+    list-style-type: none;
+}
+/* note */
 
 nav ul a {
     color: rgb(255, 255, 255);
     text-emphasis-color: red;
-    text-decoration: none;
-    
+    text-decoration: none; 
 }
+/* above, gets rid of underline and blue link color */
 
 nav ul li:hover {
 background-color: rgb(154, 135, 110);
 border: 1px solid rgb(154, 135, 110);
 }
+/* above, nav hover color */
 
 body {
     background-color: rgb(255, 245, 226);
 }
+/* above, background colour */
 
 h2,h3,h4,ul,li,td,tr {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: "Playfair Display", serif
 }
+/*above, paragraph, list font */
 
-p, td {
-    font-family:Arial, Helvetica, sans-serif;
+p,td,tr {
+    font-family:"Lato", sans-serif;
 }
-
+/*above, paragraph, table font */
