@@ -31,12 +31,32 @@ border: 1px solid rgb(154, 135, 110);
 }
 /* above, nav hover color */
 
+table, th, td {
+    border: 1px solid;
+    border-bottom: #ff0000;
+    border-color: white;
+    text-align: center;
+    float: ;
+    color: white;
+  }
+td {
+    padding: 2%;
+}
+tr {
+    background-color: black;
+}
+  table {
+    width: 75%;
+    
+  }
+/* above, table color and borders */
+
 body {
     background-color: rgb(255, 245, 226);
 }
 /* above, background colour */
 
-h2,h3,h4,ul,li,td,tr {
+h2,h3,h4,ul,li,td,tr,figcaption {
     font-family: "Playfair Display", serif
 }
 /*above, paragraph, list font */
@@ -50,10 +70,20 @@ p,td,tr {
     position: relative;
     width: 50%;
     float: left;
+
   }
-  
+  image {
+    display: inline;
+    float: left;
+    width: 50%;
+  }
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+  }
+
   .image {
-    display: block;
     width: 50%;
     height: auto;
     float: left;
@@ -78,7 +108,7 @@ p,td,tr {
   
   .text {
     color: white;
-    font-size: 20px;
+    font-size: relative;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -90,3 +120,9 @@ p,td,tr {
   html {
     scroll-behavior: smooth;
   }
+  /*smooth scrolling for nav */
+
+  ::selection {
+    background-color: rgb(188, 172, 148);
+  }
+  /* selection color changed */
