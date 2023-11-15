@@ -47,7 +47,6 @@ nav ul a {
 
 nav ul li:hover {
 background-color: rgb(154, 135, 110);
-border: 1px solid rgb(154, 135, 110);
 }
 /* above, nav hover color */
 
@@ -128,6 +127,7 @@ tr {
 
 h2 {
 text-align: center;
+padding-bottom: 2em;
 }
 
 h2,h3,h4,ul,li,td,tr,figcaption {
