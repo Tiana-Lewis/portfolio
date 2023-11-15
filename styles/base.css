@@ -41,8 +41,37 @@ div.navbar {
   border: thin black;
   border-style: solid;
   margin: auto;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
 }
 /* above, about section customization */
+
+#hobbies {
+  border-left: 0.3em black;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  border-left-style: solid;
+  margin: auto;
+}
+/* above, hobbies section customization */
+
+#goals {
+  border-left: 0.3em black;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  border-left-style: solid;
+}
+
+#projects {
+  border-left: 0.3em black;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  border-left-style: solid;
+}
 
 table, th, td {
     border: thin solid;
@@ -70,13 +99,27 @@ body {
 }
 /* above, background colour */
 
+h2 {
+text-align: center;
+}
+
 h2,h3,h4,ul,li,td,tr,figcaption {
     font-family: "Playfair Display", serif
 }
 /*above, paragraph, list font */
 
+h3,h4,p {
+  margin-left: 5%;
+}
+h3 {
+  margin-bottom: 0.5em;
+}
 p,td,tr {
     font-family:"Lato", sans-serif;
+}
+
+h1,h2,h3,h4 {
+  letter-spacing: .1em;
 }
 /*above, paragraph, table font */
 
@@ -114,14 +157,13 @@ figcaption {
 }
 
 #contact {
-  border-left: 3px solid red;
-  background-color: rgb(255, 255, 255);
-  margin-left: auto; 
-  margin-right: 0;
-  float: right;
-  margin-right: 15em;
-  padding-left: 2em;
-  padding-right: 2em;
+  border-left: 0.3em black;
+  border-top-style: hidden;
+  border-right-style: hidden;
+  border-bottom-style: hidden;
+  border-left-style: solid;
+  margin: auto;
+  /* above, about section customization */
 }
 
   html {
@@ -131,5 +173,6 @@ figcaption {
 
   ::selection {
     background-color: rgb(188, 172, 148);
+    color: white
   }
   /* selection color changed */
