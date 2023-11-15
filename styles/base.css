@@ -1,4 +1,13 @@
-*{}
+* a {
+color: rgb(255, 255, 255);
+text-emphasis-color: red;
+text-decoration: none;
+}
+
+* a:hover {
+  color: red;
+}
+ /*universal, all links same color*/
 
 nav ul li {
      border: 1px solid rgb(15, 15, 15);
@@ -49,6 +58,7 @@ div.navbar {
   font-weight: bold;
   line-height: 1.5;
   text-align: center;
+  padding-right: 3em;
 }
 /* above, about section visual customization */
 
@@ -216,7 +226,10 @@ footer div a {
 }
 
 footer div ul li  {
-  list-style-type: none;
+  font-family: "Lato", sans-serif;
+  font-size: smaller;
+  display: inline-block;
+  text-align: center;
 }
 
   html {
