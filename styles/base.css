@@ -3,6 +3,9 @@ nav ul li {
      display: block;
      display: inline-block;
      padding: 0.5em;
+     padding-left: 1.5em;
+     padding-right: 1.5em;
+     letter-spacing: 0.2em;
      margin-left: auto;
      margin-right: auto;
      background-color: black;
@@ -103,7 +106,7 @@ tr {
 /* above, table color and borders */
 
 body {
-    background-color: rgb(255, 245, 226);
+    background-color: rgb(211, 199, 176);
 }
 /* above, background colour */
 
@@ -112,7 +115,7 @@ text-align: center;
 }
 
 h2,h3,h4,ul,li,td,tr,figcaption {
-    font-family: "Playfair Display", serif
+    font-family: "Bebas Neue"
 }
 /*above, paragraph, list font */
 
@@ -127,7 +130,7 @@ p,td,tr {
 }
 
 h1,h2,h3,h4 {
-  letter-spacing: .1em;
+  letter-spacing: .2em;
 }
 /*above, paragraph, table font */
 
@@ -162,6 +165,7 @@ figcaption {
   font-size: small;
   margin-left: 4.5em;
   margin-right: 10.7em;
+  letter-spacing: 0.2em;
 }
 
 #contact {
