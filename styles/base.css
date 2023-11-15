@@ -34,13 +34,14 @@ border: 1px solid rgb(154, 135, 110);
 /* above, nav hover color */
 
 #aboutp {
+  border: thin black;
   border-style: solid;
   margin: auto;
 }
 /* above, about section customization */
 
 table, th, td {
-    border: 1px solid;
+    border: thin solid;
     border-bottom: #ff0000;
     border-color: white;
     text-align: center;
@@ -79,13 +80,32 @@ p,td,tr {
   width: 25%;
   padding: 0px;
   margin: 3em;
+  margin-bottom: 0;
 }
 
-/* Clear floats after image containers */
 .row::after {
   content: "";
   clear: both;
   display: table;
+}
+/* image alignment */
+
+figure {
+  border: 1px #cccccc hidden;
+  padding: 4px;
+  margin: 0;
+  margin-bottom: 3em;
+}
+
+figcaption {
+  background-color: black;
+  color: white;
+  font-style: italic;
+  padding: 2px;
+  text-align: center;
+  font-size: small;
+  margin-left: 4.5em;
+  margin-right: 10.7em;
 }
 
 #contact {
