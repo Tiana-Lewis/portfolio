@@ -73,6 +73,14 @@ div.navbar {
   border-left-style: solid;
 }
 
+div.gallery {
+  border: 1px hidden #ccc;
+}
+
+div.gallery:hover {
+  opacity: 90%;
+}
+
 table, th, td {
     border: thin solid;
     border-bottom: #ff0000;
