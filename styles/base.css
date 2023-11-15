@@ -73,59 +73,20 @@ p,td,tr {
     font-family:"Lato", sans-serif;
 }
 /*above, paragraph, table font */
-/*
-.container {
-    position: relative;
-    width: 50%;
-    float: left;
 
-  }
-  image {
-    display: inline;
-    float: left;
-    width: 50%;
-  }
-  .column {
-    float: left;
-    width: 50%;
-    padding: 5px;
-  }
+.column {
+  float: left;
+  width: 25%;
+  padding: 0px;
+  margin: 3em;
+}
 
-  .image {
-    width: 50%;
-    height: auto;
-    float: left;
-    margin-bottom: 2em;
-  }
-  
-  .overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 50%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #000000;
-    
-  }
-  
-  .container:hover .overlay {
-    opacity: 0.4;
-  }
-  
-  .text {
-    color: white;
-    font-size: relative;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-  }
-  /* added hover affect for image */
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 #contact {
   border-left: 3px solid red;
