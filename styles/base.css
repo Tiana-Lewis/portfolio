@@ -3,8 +3,8 @@ nav ul li {
      display: block;
      display: inline-block;
      padding: 0.5em;
-     margin: 0px;
-     float: none;
+     margin-left: auto;
+     margin-right: auto;
      background-color: black;
      text-align: center;
      display: inline-block;
@@ -15,7 +15,6 @@ nav ul li {
 nav ul {
     display: inline-block;
     list-style-type: none;
-    margin: ;
 }
 /* link underline gone */
 
@@ -33,6 +32,11 @@ border: 1px solid rgb(154, 135, 110);
 }
 /* above, nav hover color */
 
+div.navbar {
+  text-align: center;
+}
+/*centered nav bar*/
+
 #aboutp {
   border: thin black;
   border-style: solid;
@@ -45,8 +49,9 @@ table, th, td {
     border-bottom: #ff0000;
     border-color: white;
     text-align: center;
-    float: ;
     color: white;
+    margin-right: auto;
+    margin-left: auto;
   }
 td {
     padding: 2%;
