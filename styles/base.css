@@ -100,12 +100,17 @@ div.gallery:hover {
   opacity: 90%;
 }
 
-table, th, td {
+table, td {
   text-align: center;
     color: white;
     margin-right: auto;
     margin-left: auto;
   }
+
+th {
+  background-color: #000000;
+  color: white;
+}
 
   tr:hover {
     background-color: rgb(154, 135, 110);
@@ -119,9 +124,8 @@ tr {
   background-color: black;
   padding: 1em;
 }
-  table {
+table {
     width: 75%;
-    
   }
 /* above, table color and borders */
 
