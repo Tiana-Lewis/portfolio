@@ -9,6 +9,11 @@ text-decoration: none;
 }
  /*universal, all links same color*/
 
+ body {
+  background-color: rgb(211, 199, 176);
+}
+/* above, background colour */
+
 nav ul li {
      border: 1px solid rgb(15, 15, 15);
      display: block;
@@ -121,11 +126,6 @@ tr {
   }
 /* above, table color and borders */
 
-body {
-    background-color: rgb(211, 199, 176);
-}
-/* above, background colour */
-
 h2 {
 text-align: center;
 }
@@ -164,6 +164,12 @@ h1,h2,h3,h4 {
   display: table;
 }
 /* image alignment */
+
+.responsive {
+  max-width: 100%;
+  height: auto;
+}
+/*responsive images*/
 
 figure {
   border: 1px #cccccc hidden;
