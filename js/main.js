@@ -1,4 +1,7 @@
 const d = new Date();
 let year = d.getUTCFullYear();
-document.getElementById("demo").innerHTML = year;
+document.getElementById("fyear").innerHTML = year;
 /* footer date */
+
+
+/* button */
