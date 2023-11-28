@@ -263,8 +263,16 @@ footer div ul li  {
   cursor: pointer;
   margin:0 auto;
 }
+.button {
+  transition-duration: 0.4s;
+}
 
-#like {
+.button:hover {
+  background-color: #ff0000;
+  color: white;
+}
+
+#txt-counter {
   font-family: "Lato", sans-serif; 
   color: rgb(255, 255, 255);
   display: block;
