@@ -3,5 +3,7 @@ let year = d.getUTCFullYear();
 document.getElementById("fyear").innerHTML = year;
 /* footer date */
 
-
-/* button */
+function myFunction() {
+    document.getElementById("like").innerHTML = "Thank you! :)";
+  }
+/* buttons under photos */

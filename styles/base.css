@@ -247,6 +247,24 @@ footer div ul li  {
   }
   /*smooth scrolling for nav */
 
+.button {
+  border-radius: 12px;
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.like {
+}
+/*button custom */
+
   ::selection {
     background-color: rgb(188, 172, 148);
     color: white
