@@ -1,4 +1,3 @@
-document.addEventListener('DOMContentLoaded', function () {
 const d = new Date();
 let year = d.getUTCFullYear();
 document.getElementById("fyear").innerHTML = year;
@@ -58,5 +57,3 @@ for (let i = 1; i <= 100; i++) { //i++ uses original value of i but increments i
     myList.appendChild(listItem);
 }
 /*loop de loop*/
-
-});
