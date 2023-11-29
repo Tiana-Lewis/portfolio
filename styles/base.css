@@ -176,7 +176,7 @@ h1,h2,h3,h4 {
 /*responsive images*/
 
 figure {
-  border: 1px #cccccc hidden;
+  border: 1px #cccccc none;
   padding: 4px;
   margin: 0;
   margin-bottom: 3em;
@@ -190,17 +190,17 @@ figcaption {
   padding: 2px;
   text-align: center;
   font-size: small;
-  margin-left: 4.5em;
-  margin-right: 10.7em;
+  margin-left: 2%;
+  margin-right: 7.5%;
   letter-spacing: 0.2em;
 }
 /*figure caption customization*/
 
 #contact {
   border-left: 0.3em black;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-bottom-style: hidden;
+  border-top-style: none;
+  border-right-style: none;
+  border-bottom-style: none;
   border-left-style: solid;
   margin: auto;
   /* above, about section customization */
@@ -259,9 +259,9 @@ footer div ul li  {
   display: block;
   font-size: 16px;
   font-family: "Bebas Neue", sans-serif;
-  /*margin: 4px 2px;*/
   cursor: pointer;
   margin:0 auto;
+  width: 200px;
 }
 .button {
   transition-duration: 0.4s;
@@ -282,7 +282,18 @@ footer div ul li  {
   padding: 10px;
   text-align: center;
 }
+
 /*button custom */
+
+p.odd {
+  color: #ff0000;
+    }
+  
+p.even {
+  color: white;
+    }
+  /*alternating incremental conter colors*/
+
 
   ::selection {
     background-color: rgb(188, 172, 148);
@@ -290,10 +301,3 @@ footer div ul li  {
   }
   /* selection color changed */
 
-  .odd {
-color: #ff0000;
-  }
-
-  .even {
-color: white
-  }

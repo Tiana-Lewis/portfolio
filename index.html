@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/base.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas%20Neue">
     <!-- Keep getting the error about the space in Bebas Neue, but the font wont work without the space here? and on W3 schools, they do the same as I did-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
       <title>Tiana L Design</title>
-      <script>
-        console.log('hello, world');
-      </script>  
+
       <style>
         html {
           font-size: 62.5%;
@@ -122,11 +120,14 @@
         </figcaption>
             </figure>
             
-            
-            <p id="txt-counter" class="even odd">Likes: 1</p>
-            <button id="btn-counter" class="button">Press to leave a LIKE!</button>
-
       </section>
+    <div class="btncontainer">
+      <p id="txt-counter">Likes: 1</p>
+    </div>
+    <button id="btn-counter" class="button" onclick="updateCounter()">Press to leave a LIKE!</button>
+
+
+      <!-- color-changing incerement button -->
 
           <section id="contact">
           
