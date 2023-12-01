@@ -1,3 +1,9 @@
+/* Explanation for why I used async instead of defer:
+Defer loads scripts once everything else is loaded, Async loads scripts immediately.
+As this is a small JavaScript file, async is better to use for load speed, 
+however on a site with a larger javascript file, I may opt to use defer instead.
+*/
+
 const d = new Date();
 let year = d.getUTCFullYear();
 document.getElementById("fyear").innerHTML = year;
