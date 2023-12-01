@@ -372,6 +372,10 @@ footer div a {
   text-align: center;
   padding-bottom: 2em;
   }
+
+  html {
+    scroll-behavior: smooth;
+  }
   /*smooth scrolling for nav */
 
 .button {
