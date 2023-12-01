@@ -1,254 +1,312 @@
 * a {
-color: rgb(255, 255, 255);
-text-emphasis-color: red;
-text-decoration: none;
-}
-
-* a:hover {
-  color: red;
-}
- /*universal, all links same color*/
-
- body {
-  background-color: rgb(211, 199, 176);
-}
-/* above, background colour */
-
-nav ul li {
-     border: 1px solid rgb(15, 15, 15);
-     display: block;
-     display: inline-block;
-     padding: 0.5em;
-     padding-left: 1.5em;
-     padding-right: 1.5em;
-     letter-spacing: 0.2em;
-     margin-left: auto;
-     margin-right: auto;
-     background-color: black;
-     text-align: center;
-     display: inline-block;
-    list-style-type: none;
-}
-/* above, nav colors and configuration */
-
-nav ul {
-    display: inline-block;
-    list-style-type: none;
-}
-/* link underline gone */
-
-nav ul a {
-    color: rgb(255, 255, 255);
-    text-emphasis-color: red;
-    text-decoration: none; 
-    font-size: smaller
-}
-/* above, gets rid of underline and blue link color */
-
-nav ul li:hover {
-background-color: rgb(154, 135, 110);
-}
-/* above, nav hover color */
-
-div.navbar {
-  text-align: center;
-}
-/*centered nav bar*/
-
-#aboutp {
-  border: thin black;
-  border-style: solid;
-  margin: auto;
-  font-weight: bold;
-  line-height: 1.5;
-  text-align: center;
-  padding-right: 3em;
-}
-/* above, about section visual customization */
-
-#hobbies {
-  border-left: 0.3em black;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-bottom-style: hidden;
-  border-left-style: solid;
-  margin: auto;
-}
-/* above, hobbies section customization */
-
-#goals {
-  border-left: 0.3em black;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-bottom-style: hidden;
-  border-left-style: solid;
-}
-
-#projects {
-  border-left: 0.3em black;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-bottom-style: hidden;
-  border-left-style: solid;
-}
-
-div.gallery {
-  border: 1px hidden #ccc;
-}
-
-div.gallery:hover {
-  opacity: 90%;
-}
-
-table, td {
-  text-align: center;
-    color: white;
-    margin-right: auto;
-    margin-left: auto;
-  }
-
-th {
-  background-color: #000000;
-  color: white;
-}
-
-  tr:hover {
-    background-color: rgb(154, 135, 110);
-  }
-
-td {
- padding: 1em;
-}
-
-tr {
-  background-color: black;
-  padding: 1em;
-}
-table {
-    width: 75%;
-  }
-/* above, table color and borders */
-
-h2 {
-text-align: center;
-padding-bottom: 2em;
-}
-
-h2,h3,h4,ul,li,td,tr,figcaption {
-    font-family: "Bebas Neue", sans-serif;
-}
-/*above, paragraph, list font */
-
-h3,h4,p {
-  margin-left: 5%;
-}
-h3 {
-  margin-bottom: 0.5em;
-}
-p,td,tr {
-    font-family:"Lato", sans-serif;
-}
-
-h1,h2,h3,h4 {
-  letter-spacing: .2em;
-}
-/*above, paragraph, table font */
-
-.column {
-  float: left;
-  width: 25%;
-  padding: 0px;
-  margin: 3em;
-  margin-bottom: 0;
-}
-
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-/* image alignment */
-
-.responsive {
-  max-width: 100%;
-  height: auto;
-}
-/*responsive images*/
-
-figure {
-  border: 1px #cccccc hidden;
-  padding: 4px;
-  margin: 0;
-  margin-bottom: 3em;
-}
-/*figure containment*/
-
-figcaption {
-  background-color: black;
-  color: white;
-  font-style: italic;
-  padding: 2px;
-  text-align: center;
-  font-size: small;
-  margin-left: 4.5em;
-  margin-right: 10.7em;
-  letter-spacing: 0.2em;
-}
-/*figure caption customization*/
-
-#contact {
-  border-left: 0.3em black;
-  border-top-style: hidden;
-  border-right-style: hidden;
-  border-bottom-style: hidden;
-  border-left-style: solid;
-  margin: auto;
-  /* above, about section customization */
-}
-
-.footer {
-  position: absolute; 
-  margin-top: 150px;
-  width: 100%;
-  padding: 100px 15%;
-  background: black;
-  color: white;
-  display: flex; 
-}
-
-.footer div {
-  text-align: center;
-}
-
-.col-2 {
-  flex-grow: 0.6;
-}
-
-footer div h6 {
-  font-weight: bolder;
-}
-
-footer div a {
-  color: white;
+  color: rgb(255, 255, 255);
   text-emphasis-color: red;
-  font-size: smaller;
   text-decoration: none;
-}
-
-footer div ul li  {
-  font-family: "Lato", sans-serif;
-  font-size: smaller;
-  display: inline-block;
+  }
+  
+  * a:hover {
+    color: red;
+  }
+   /*universal, all links same color*/
+  
+   body {
+    background-color: rgb(211, 199, 176);
+  }
+  /* above, background colour */
+  
+  nav ul li {
+       border: 1px solid rgb(15, 15, 15);
+       display: block;
+       display: inline-block;
+       padding: 0.5em;
+       padding-left: 1.5em;
+       padding-right: 1.5em;
+       letter-spacing: 0.2em;
+       margin-left: auto;
+       margin-right: auto;
+       background-color: black;
+       text-align: center;
+       display: inline-block;
+      list-style-type: none;
+  }
+  /* above, nav colors and configuration */
+  
+  nav ul {
+      display: inline-block;
+      list-style-type: none;
+  }
+  /* link underline gone */
+  
+  nav ul a {
+      color: rgb(255, 255, 255);
+      text-emphasis-color: red;
+      text-decoration: none; 
+      font-size: smaller
+  }
+  /* above, gets rid of underline and blue link color */
+  
+  nav ul li:hover {
+  background-color: rgb(154, 135, 110);
+  }
+  /* above, nav hover color */
+  
+  div.navbar {
+    text-align: center;
+  }
+  /*centered nav bar*/
+  
+  #aboutp {
+    border: thin black;
+    border-style: solid;
+    margin: auto;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    padding-right: 3em;
+  }
+  /* above, about section visual customization */
+  
+  #hobbies {
+    border-left: 0.3em black;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+    margin: auto;
+  }
+  /* above, hobbies section customization */
+  
+  #goals {
+    border-left: 0.3em black;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+  }
+  
+  #projects {
+    border-left: 0.3em black;
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: hidden;
+    border-left-style: solid;
+  }
+  
+  div.gallery {
+    border: 1px hidden #ccc;
+  }
+  
+  div.gallery:hover {
+    opacity: 90%;
+  }
+  
+  table, td {
+    text-align: center;
+      color: white;
+      margin-right: auto;
+      margin-left: auto;
+    }
+  
+  th {
+    background-color: #000000;
+    color: white;
+  }
+  
+    tr:hover {
+      background-color: rgb(154, 135, 110);
+    }
+  
+  td {
+   padding: 1em;
+  }
+  
+  tr {
+    background-color: black;
+    padding: 1em;
+  }
+  table {
+      width: 75%;
+    }
+  /* above, table color and borders */
+  
+  h2 {
   text-align: center;
-}
-
-  html {
-    scroll-behavior: smooth;
+  padding-bottom: 2em;
   }
-  /*smooth scrolling for nav */
-
-  ::selection {
-    background-color: rgb(188, 172, 148);
-    color: white
+  
+  h2,h3,h4,ul,li,td,tr,figcaption {
+      font-family: "Bebas Neue", sans-serif;
   }
-  /* selection color changed */
+  /*above, paragraph, list font */
+  
+  h3,h4,p {
+    margin-left: 5%;
+  }
+  h3 {
+    margin-bottom: 0.5em;
+  }
+  
+  th {
+    padding-top: 1%;
+    padding-bottom: 1%;
+  font-family: "Bebas Neue", sans-serif;
+  font-size: x-large;
+  letter-spacing: 0.25em;
+  }
+  
+  p,td,tr {
+      font-family:"Lato", sans-serif;
+  }
+  
+  h1,h2,h3,h4 {
+    letter-spacing: .2em;
+  }
+  /*above, paragraph, table font */
+  
+  .column {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    margin: 3em;
+    margin-bottom: 0;
+  }
+  
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  /* image alignment */
+  
+  .responsive {
+    max-width: 100%;
+    height: auto;
+  }
+  /*responsive images*/
+  
+  figure {
+    border: 1px #cccccc none;
+    padding: 4px;
+    margin: 0;
+    margin-bottom: 3em;
+  }
+  /*figure containment*/
+  
+  figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+    font-size: small;
+    margin-left: 2%;
+    margin-right: 7.5%;
+    letter-spacing: 0.2em;
+  }
+  /*figure caption customization*/
+  
+  #contact {
+    border-left: 0.3em black;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: solid;
+    margin: auto;
+    /* above, about section customization */
+  }
+  
+  .footer {
+    position: absolute; 
+    margin-top: 150px;
+    width: 100%;
+    padding: 100px 15%;
+    background: black;
+    color: white;
+    display: flex; 
+  }
+  
+  .footer div {
+    text-align: center;
+  }
+  
+  .col-2 {
+    flex-grow: 0.6;
+  }
+  
+  footer div h6 {
+    font-weight: bolder;
+  }
+  
+  footer div a {
+    color: white;
+    text-emphasis-color: red;
+    font-size: smaller;
+    text-decoration: none;
+  }
+  
+  footer div ul li  {
+    font-family: "Lato", sans-serif;
+    font-size: smaller;
+    display: inline-block;
+    text-align: center;
+  }
+  
+    html {
+      scroll-behavior: smooth;
+    }
+    /*smooth scrolling for nav */
+  
+  .button {
+    border-radius: 12px;
+    background-color: #000000;
+    border: 1px;
+    border-color: rgb(255, 255, 255);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    font-family: "Bebas Neue", sans-serif;
+    cursor: pointer;
+    margin:0 auto;
+    width: 200px;
+  }
+  .button {
+    transition-duration: 0.4s;
+  }
+  
+  .button:hover {
+    background-color: #ff0000;
+    color: white;
+  }
+  
+  #txt-counter {
+    font-family: "Lato", sans-serif; 
+    display: block;
+    margin: auto;
+    width: 50%;
+    font-size: 16px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /*button custom */
+  
+  .odd {
+    color: #ff0000;
+      }
+    
+  .even {
+    color: white;
+      }
+    /*alternating incremental conter colors*/
+  
+  
+    ::selection {
+      background-color: rgb(188, 172, 148);
+      color: white
+    }
+    /* selection color changed */
+  
+  
