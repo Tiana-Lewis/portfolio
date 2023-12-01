@@ -59,6 +59,7 @@ for (let i = 1; i <= 100; i++) { //i++ uses original value of i but increments i
   const label = i % 2 === 0 ? 'even' : 'odd';
 
   listItem.textContent = `${label} - ${i}`;
+  
   listItem.className = i % 2 === 0 ? 'even' : 'odd';
 
   myList.appendChild(listItem);
