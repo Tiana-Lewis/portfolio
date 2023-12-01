@@ -4,10 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="./styles/base.css" rel="stylesheet" media="screen">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas Neue">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bebas%20Neue">
     <!-- Keep getting the error about the space in Bebas Neue, but the font wont work without the space here? and on W3 schools, they do the same as I did-->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
       <title>Tiana L Design</title>
+
       <style>
         html {
           font-size: 62.5%;
@@ -41,7 +42,10 @@
 
   <main>
       <article>  
-    <h2>Welcome to Tiana Lewis' Design Portfolio!</h2>     
+    <h2>Welcome to Tiana Lewis' Design Portfolio!</h2>
+    
+    <button id="btn-alert" class="button" onclick="myFunction()">What does this do?</button>
+
       <section id="about">
         <h3>About me</h3>
       </section>
@@ -60,10 +64,10 @@
                   <tbody>
                     <tr>
                       <th>
-                        <h4><b>Short-term</b></h4>
+                        <b>Short-term</b>
                       </th>
                       <th>
-                        <h4><b>Long-term</b></h4>
+                        <b>Long-term</b>
                       </th>
                     </tr>
 
@@ -115,8 +119,15 @@
             <i>Trio of horror movie posters created by &copy; Tiana Lewis.</i>
         </figcaption>
             </figure>
-
+            
       </section>
+    <div class="btncontainer">
+      <p id="txt-counter">Likes: 1</p>
+    </div>
+    <button id="btn-counter" class="button">Press to leave a LIKE!</button>
+
+
+      <!-- color-changing incerement button -->
 
           <section id="contact">
           
@@ -124,6 +135,8 @@
           <h3>Contact Info</h3>
           <p>I am available for contact through my <a href="https://www.linkedin.com/in/tm-lewis/">LinkedIn</a>, or by email: <a href='mai&#108;to&#58;%74ian&#97;l%2Ed&#37;65sign%40gmail&#46;co&#109;'>ti&#97;nal&#46;&#100;esign&#64;gmail&#46;&#99;om</a>. </p>
         </div>
+
+<ol id="numbers"></ol>
 
       </section>
     </article>
@@ -138,7 +151,7 @@
                   <img src="./images/logosmall_blkicon.png" height="35" alt="small black-grey square with the letters T and L in bubble letters.">
                 </div>
                 <div class="col-2">
-                  <h6>&copy; Tiana Lewis Design, 2023</h6>
+                  <h6>&copy; Tiana Lewis Design,</h6><h6 id="fyear"></h6>
                 </div>
                 <div class="col-3">
                   <h6>USEFUL LINKS</h6>
@@ -156,7 +169,7 @@
                 </div>
           </div>
         </footer>
-        <script async src="./js/main.js"></script>
+        <script async src="./js/main.js"></script> <!--Explanation at the top of JavaScript-->
     </body>
 </html>
 <!-- Tadaaaaa -->
