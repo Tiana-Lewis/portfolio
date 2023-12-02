@@ -3,6 +3,9 @@ Defer loads scripts once everything else is loaded, Async loads scripts immediat
 As this is a small JavaScript file, async is better to use for load speed, 
 however on a site with a larger javascript file, I may opt to use defer instead.
 */
+console.log("Hi")
+
+/*console log message*/
 
 const d = new Date();
 let year = d.getUTCFullYear();
@@ -65,3 +68,4 @@ for (let i = 1; i <= 100; i++) { //i++ uses original value of i but increments i
   myList.appendChild(listItem);
 }
 /*loop de loop*/
+
